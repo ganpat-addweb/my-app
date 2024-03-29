@@ -6,7 +6,9 @@ export const userConstants = {
         female: "female"
     },
     ROLES: {
-        admin: "admin"
+        admin: "admin",
+        model: "model",
+        user: "user"
     }
 }
 

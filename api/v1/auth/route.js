@@ -15,9 +15,9 @@ route.post("/login",
                         $ref: "#/definitions/login"
                     }  
                 }
-            }
+            } 
         } 
-    */
+    */ 
     validator(authValidatorSchema.loginSchema), controller.login);
 
 route.post("/refresh_token", controller.refreshToken);
